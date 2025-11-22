@@ -144,7 +144,6 @@
     
     <nav>
     <ul class="menu">
-        <li><a href="#bioindicadores">Los Bioindicadores</a></li>
         <li><a href="#historia">Desarrollo Histórico</a></li>
         <li><a href="#tipos">Tipos de Bioindicadores</a></li>
         <li><a href="#importancia">Importancia y Aplicaciones</a></li>
@@ -156,38 +155,53 @@
 
     </ul>
 </nav>
-
 <style>
+    
+    .menu-box {
+        width: 60%;                
+        height: 350px;             
+        margin: 20px auto;
+        padding: 20px;
+        border: 2px solid black;
+        border-radius: 15px;
+        background-color: #f2f2f2;
+        text-align: center;
+
+        display: flex;
+        align-items: center;       
+        justify-content: center;   
+    }
+
     .menu {
         list-style: none;
         padding: 0;
         margin: 0;
-        text-align: center;      
     }
 
     .menu li {
-        display: inline-block;   
-        margin: 0 15px;
+        display: block;            
+        margin: 12px 0;
     }
 
     .menu a {
         text-decoration: none;
         font-size: 18px;
-        color: black;   
+        color: black;
         font-weight: bold;
         transition: 0.3s;
+        padding: 8px 12px;
+        border-radius: 8px;
+        display: inline-block;
     }
 
     .menu a:hover {
-        color: gray;
+        background: #dcdcdc;
     }
 
-    
     .menu a:visited {
         color: white;
     }
 </style>
-    <p>
         <span style="font-size: 19px;">
             Esta página web fue creada con el fin de entregar información acerca de los bioindicadores: su definición, importancia en la protección de la naturaleza y su desarrollo en nuestro país. 
             Al final busca crear conciencia ambiental. <strong>¡DISFRUTA!</strong>
